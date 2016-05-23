@@ -1,0 +1,165 @@
+/* My CSS Document */
+* { 
+	margin: 0; 
+	padding: 0; 
+	outline: 0;
+}
+body {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+}
+	#halaman-utama {
+		padding: 10px 0 0 10px;
+	}
+		#halaman-utama a {
+			color: #000000;
+			font-weight: bold;
+			text-decoration: none;
+		}
+		#halaman-utama a:hover {
+			text-decoration: underline;
+		}
+	#info-user {
+		position: absolute; 
+		float: right; 
+		right: 10px; 
+		margin-top: 65px; 
+		color: #FFFFFF;
+		font-weight: bold;
+	}
+		#info-user a {
+			color: #FFFFFF;
+		}
+		#info-user a:hover {
+			color: #FF9900;
+		}
+		#info-user .flag {
+			color: #FF9900; 
+		}
+	.menu-dropdown {
+		float: left; 
+		width: 1100px;
+	}
+	#menu-info {
+		text-align: right;
+		padding: 12px;
+		color: #333333;
+		font-weight: bold;
+		position: absolute;
+		right: 0;
+	}
+	td {
+		font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+		color: #000000;
+		font-size: 11px;
+	}
+/* End Of Modal */
+.object_text {
+	border: 1px #BDC7D8 solid;
+	padding: 3px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #777777;
+	height: 21px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.object_text_login {
+	border: 1px #BDC7D8 solid;
+	padding: 3px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #777777;
+	height: 21px;
+	font-weight: normal;
+}
+.object_text_search {
+	border: 1px #BDC7D8 solid;
+	padding: 3px 3px 3px 20px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #CCCCCC;
+	background: #FFFFFF url(../images/search.png) no-repeat;
+	height: 21px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+	.object_text_disabled {
+		border: 1px #BDC7D8 solid;
+		padding: 3px;
+		font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+		font-size: 11px;
+		color: #777777;
+		height: 21px;
+		background: #FFFF99;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+	.object_text:focus {
+		background: #EFF3FA;
+		color: #000000;
+		text-transform: uppercase;
+		font-weight: normal;
+	}
+.object_textarea {
+	border: 1px #BDC7D8 solid;
+	padding: 3px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #777777;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.object_search {
+	border: 1px #BDC7D8 solid;
+	padding: 3px 3px 3px 20px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #777777;
+	background: #FFFFFF url(../images/search.png) no-repeat;
+	height: 21px;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.object_select {
+	border: 1px #BDC7D8 solid;
+	padding: 3px 3px 3px 3px;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	color: #777777;
+	text-transform: uppercase;
+	font-weight: normal;
+}
+.object_header {
+	border-bottom: 1px #D8DFEA solid; 
+	font-weight: bold; 
+	font-size: 11px; 
+	color: #000000;
+}
+.object_label {
+	font-weight: bold; 
+	color: #444444;
+	font-size: 11px;
+}
+.object_button {
+	border-top: 1px #000000 solid;
+	border-left: 1px #000000 solid;
+	border-bottom: 1px #000000 solid;
+	border-right: 1px #000000 solid;
+	background: url(../images/header.png);
+	color: #FFFFFF;
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 11px;
+	padding: 3px 10px 3px 10px;
+}
+.object_disabled {
+	background: #FF0000;
+	border: 1px #BDC7D8 solid;
+	color: #777777;
+}
+.object_enabled {
+	background: #FFFFFF;
+	border: 1px #BDC7D8 solid;
+	color: #777777;
+}

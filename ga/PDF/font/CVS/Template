@@ -1,0 +1,16 @@
+
+
+CVS: ---------------------- N O T E S -------------------------------------
+CVS: 1. Make sure the file is in Unix Format (not CR LF aka DOS)
+CVS: 
+CVS: ----------------- C H A N G E  L O G ---------------------------------
+CVS: Apa aja yang berubah? 
+CVS: Tuliskan perubahan fungsional program yang di-commit, 
+CVS: bukan perubahan untuk tiap file
+CVS: Contoh: 
+CVS: 1. field baru: name, cabang
+CVS: 2. login sekarang lebih gampang
+CVS: 3. dst.
+CVS: 
+CVS: File yang berubah bisa dilihat di 'Modified Files:'
+CVS: ----------------------------------------------------------------------

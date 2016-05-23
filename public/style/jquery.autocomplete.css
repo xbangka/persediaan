@@ -1,0 +1,72 @@
+.ac_results {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	padding: 0px;
+	border: 1px solid black;
+	background-color: white;
+	overflow: hidden;
+	z-index: 99999;
+	width:100px;
+}
+
+.ac_results ul {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	width: 100%;
+	list-style-position: outside;
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width:100px;
+}
+
+.ac_results li {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	margin: 0px;
+	padding: 2px 5px;
+	cursor: default;
+	display: block;
+	width:100px;
+	/* 
+	if width will be 100% horizontal scrollbar will apear 
+	when scroll mode will be used
+	*/
+	/*width: 100%;*/
+	/*font: menu;
+	font-size: 10px;*/
+	/* 
+	it is very important, if line-height not setted or setted 
+	in relative units scroll will be broken in firefox
+	*/
+	line-height: 16px;
+	overflow: hidden;
+}
+
+.ac_loading {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	background: white url('indicator.gif') right center no-repeat;
+	width:100px;
+}
+
+.ac_odd {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	background-color: #FFFFFFF;
+	width:100px;
+}
+
+.ac_over {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	color: #000000;
+	font-size: 11px;
+	background-color: #DFEAFD;
+	color: white;
+	width:100px;
+}

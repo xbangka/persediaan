@@ -1,0 +1,15 @@
+body {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif;
+	font-size: 13px;
+	color: #000000;
+}
+.button_Report {
+	font-family: Tahoma, Verdana, Arial, Helvetica, Sans-Serif; 
+	font-size: 11px; BORDER-RIGHT: #333 1px solid; BORDER-TOP: #333 1px solid; BORDER-LEFT: #333 1px solid; 
+	COLOR: #333; padding:2px; BORDER-BOTTOM: #333 1px solid; font-size: 11px
+}
+@media screen{
+	body>div#footer{
+		position: fixed;
+	}
+ }

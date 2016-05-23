@@ -1,0 +1,2 @@
+# persediaan
+Menegemen Stok Barang

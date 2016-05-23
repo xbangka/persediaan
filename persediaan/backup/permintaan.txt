@@ -1,0 +1,29 @@
+CREATE TABLE `permintaan2` (
+  `x` int(15) unsigned NOT NULL auto_increment,
+  `kodepm` varchar(15) NOT NULL,
+  `tgl` datetime NOT NULL,
+  `departemen` varchar(200) NOT NULL,
+  `user_id` char(4) NOT NULL,
+  `nama` varchar(100) NOT NULL,
+  `klasifikasi` char(1) NOT NULL,
+  `tgl_butuh` date NOT NULL,
+  `kodebrg` varchar(7) NOT NULL,
+  `namabrg` varchar(255) NOT NULL,
+  `jml` int(4) NOT NULL,
+  `user_approve` char(4) NOT NULL,
+  `approve` char(1) NOT NULL,
+  `dilihat` char(1) NOT NULL,
+  `dilihat_user_approve` char(1) NOT NULL,
+  KEY `x` (`x`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=8 ;
+
+-- 
+-- Dumping data for table `permintaan`
+-- 
+
+INSERT INTO `permintaan2` VALUES (1, '56f9e7323fc52', '2016-03-29 08:59:50', 'Audit/IT', '195', 'Dedi', '1', '2016-03-29', 'ATK0037', 'Cartridge HP 704 Black', 1, '6', '1', '1', '0');
+INSERT INTO `permintaan2` VALUES (2, '56fb3862de762', '2016-03-28 14:49:53', 'Finance', '25', 'oki', '0', '2016-03-28', 'ATK0008', 'Ballpoint Snowman V5 Biru', 1, '104', '1', '1', '0');
+INSERT INTO `permintaan2` VALUES (3, '56f9e4539ca42', '2016-03-29 09:00:50', 'Audit/IT', '195', 'Dedi', '1', '2016-03-29', 'ATK0050', 'Kertas A4 70gr', 1, '6', '1', '1', '0');
+INSERT INTO `permintaan2` VALUES (4, '56fb3b5c2eae2', '2016-03-30 09:34:00', 'Finance', '123', 'viabank', '1', '2016-03-30', 'ATK0089', 'Reffil Ballpoint V5 Snowman', 3, '104', '1', '1', '0');
+INSERT INTO `permintaan2` VALUES (5, '56fb7d46d7872', '2016-03-30 13:57:53', 'Accounting', '41', 'firda', '0', '2016-03-30', 'ATK0050', 'Kertas A4 70gr', 1, '96', '1', '1', '0');
+INSERT INTO `permintaan2` VALUES (7, '56fcab3aed992', '2016-03-31 11:40:35', 'Finance', '25', 'oki', '0', '2016-03-31', 'ATK0050', 'Kertas A4 70gr', 1, '104', '1', '1', '0');

@@ -1,0 +1,11 @@
+deletemutasi.php
+deletepermintaan.php
+mutasi.php
+get_permintaan.php
+barang.php
+unit.php
+atc/pengaturan.php
+ga/proses_hapus_permintaan_brg.php
+
+
+add table
